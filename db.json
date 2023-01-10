@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "email": "teste@mail.com",
+      "email": "donor@mail.com",
       "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
       "name": "Teste",
       "businessName": "Testando",
@@ -17,7 +17,7 @@
       "id": 1
     },
     {
-      "email": "teste2@mail.com",
+      "email": "receiver@mail.com",
       "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
       "name": "TesteReceptor",
       "cpf": "1234456789",
