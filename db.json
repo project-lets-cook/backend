@@ -10,7 +10,7 @@
       "address": {
         "street": "rua x",
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "SP"
       },
       "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
       "donor": true,
@@ -25,9 +25,9 @@
       "address": {
         "street": "rua x",
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "RJ"
       },
-      "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+      "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
       "donor": false,
       "id": 2
     }
@@ -42,9 +42,14 @@
       "amounts": 10,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "SP"
       },
-      "id": 1
+      "id": 1,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -55,9 +60,14 @@
       "amounts": 5,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "RJ"
       },
-      "id": 2
+      "id": 2,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -68,9 +78,14 @@
       "amounts": 30,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "MG"
       },
-      "id": 3
+      "id": 3,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -81,9 +96,14 @@
       "amounts": 6,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "CE"
       },
-      "id": 4
+      "id": 4,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -94,9 +114,14 @@
       "amounts": 30,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "DF"
       },
-      "id": 5
+      "id": 5,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -107,9 +132,14 @@
       "amounts": 5,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "GO"
       },
-      "id": 6
+      "id": 6,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -120,9 +150,14 @@
       "amounts": 2,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "RR"
       },
-      "id": 7
+      "id": 7,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     },
     {
       "userId": 1,
@@ -133,9 +168,14 @@
       "amounts": 2,
       "address": {
         "city": "São Paulo",
-        "state": "São paulo"
+        "state": "AC"
       },
-      "id": 8
+      "id": 8,
+      "request":[{
+         "userId":2,
+         "img":"https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+         "name":"TesteReceptor"
+      }]
     }
   ]
 }
