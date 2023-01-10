@@ -36,64 +36,105 @@
     {
       "userId": 1,
       "title": "Farinha de Trigo",
-      "category": "Cereals",
+      "category": "Cereais",
       "validation": "01/02/23",
       "descripition": "Doção sacos de trigo",
-      "amounts": "10",
+      "amounts": 10,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 1
     },
     {
       "userId": 1,
       "title": "Repolhos",
-      "category": "Vegetables",
+      "category": "Hortaliças",
       "validation": "20/02/23",
       "descripition": "varios Repolhos que sobreram da feira",
-      "amounts": "5",
+      "amounts": 5,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 2
     },
     {
       "userId": 1,
       "title": "Banana",
-      "category": "Fruits",
+      "category": "Frutas",
       "validation": "20/02/23",
       "descripition": "Bananas que sobrearam da platanção",
-      "amounts": "30",
+      "amounts": 30,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 3
     },
     {
       "userId": 1,
-      "title": "Ovos que sobraram da granja",
-      "category": "MeatAndEggs",
+      "title": "Ovos",
+      "category": "Carnes & Ovos",
       "validation": "20/02/23",
       "descripition": "algumas Duzias",
-      "amounts": "6",
+      "amounts": 6,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 4
     },
     {
       "userId": 1,
-      "title": "Leites Quase vencidos",
-      "category": "Milk",
+      "title": "Leites",
+      "category": "Leite e Derivados",
       "validation": "20/01/23",
       "descripition": "Leites que Nào forem usados na padaria",
-      "amounts": "30",
+      "amounts": 30,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 5
     },
     {
       "userId": 1,
-      "title": "Oleos de amendoa",
-      "category": "oils",
+      "title": "Oléos",
+      "category": "Oleos & Gorduras",
       "validation": "20/04/23",
       "descripition": "Genhei e nunca usei",
-      "amounts": "5",
+      "amounts": 5,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 6
     },
     {
       "userId": 1,
-      "title": "Algumas cestas Basicas",
-      "category": "basicbasket",
+      "title": "Cestas Basicas",
+      "category": "Cesta Basica",
       "validation": "20/04/23",
       "descripition": "genhei da frima e Nào vou utilizar",
-      "amounts": "2",
+      "amounts": 2,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Milho Enlatado",
+      "category": "Não Pereciveis",
+      "validation": "20/04/23",
+      "descripition": "genhei da frima e Nào vou utilizar",
+      "amounts": 2,
+      "address": {
+        "city": "São Paulo",
+        "state": "São paulo"
+      },
       "id": 7
     }
   ]
