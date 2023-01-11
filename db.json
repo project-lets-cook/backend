@@ -41,15 +41,25 @@
       "descripition": "Doção sacos de trigo",
       "amounts": 10,
       "address": {
+        "street": "rua x",
         "city": "São Paulo",
         "state": "SP"
       },
       "id": 1,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "São Paulo",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -61,15 +71,25 @@
       "descripition": "varios Repolhos que sobreram da feira",
       "amounts": 5,
       "address": {
-        "city": "São Paulo",
+        "street": "rua x",
+        "city": "Rio de Janeiro",
         "state": "RJ"
       },
       "id": 2,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Petrópolis",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -81,15 +101,24 @@
       "descripition": "Bananas que sobrearam da platanção",
       "amounts": 30,
       "address": {
-        "city": "São Paulo",
+        "city": "Belo horizonte",
         "state": "MG"
       },
       "id": 3,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "São Gonçalo",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -101,15 +130,24 @@
       "descripition": "algumas Duzias",
       "amounts": 6,
       "address": {
-        "city": "São Paulo",
+        "city": "Fortaleza",
         "state": "CE"
       },
       "id": 4,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Aquiraz",
+            "state": "CE"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -121,15 +159,24 @@
       "descripition": "Leites que Nào forem usados na padaria",
       "amounts": 30,
       "address": {
-        "city": "São Paulo",
+        "city": "Brasília",
         "state": "DF"
       },
       "id": 5,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Guarulhos",
+            "state": "SP"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -141,15 +188,24 @@
       "descripition": "Genhei e nunca usei",
       "amounts": 5,
       "address": {
-        "city": "São Paulo",
+        "city": "Goiás ",
         "state": "GO"
       },
       "id": 6,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Itumbiara",
+            "state": "Go"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -161,15 +217,24 @@
       "descripition": "genhei da frima e Nào vou utilizar",
       "amounts": 2,
       "address": {
-        "city": "São Paulo",
+        "city": "Boa Vista ",
         "state": "RR"
       },
       "id": 7,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Rorainópolis",
+            "state": "RR"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     },
@@ -181,15 +246,24 @@
       "descripition": "genhei da frima e Nào vou utilizar",
       "amounts": 2,
       "address": {
-        "city": "São Paulo",
+        "city": "Sena Madureira",
         "state": "AC"
       },
       "id": 8,
       "request": [
         {
-          "userId": 2,
-          "img": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "name": "TesteReceptor"
+          "email": "receiver@mail.com",
+          "name": "TesteReceptor",
+          "cpf": "1234456789",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": " Arujá",
+            "state": "SP"
+          },
+          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "donor": false,
+          "id": 2
         }
       ]
     }
