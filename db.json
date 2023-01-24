@@ -3,8 +3,8 @@
     {
       "email": "donor@mail.com",
       "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
-      "name": "Teste",
-      "businessName": "Testando",
+      "name": "Beto/Laura",
+      "businessName": "SuperMercado",
       "cnpj": "000112345678910",
       "telephone": "123456790910",
       "address": {
@@ -12,52 +12,100 @@
         "city": "São Paulo",
         "state": "SP"
       },
-      "profileImgUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+      "profileImgUrl": "https://classic.exame.com/wp-content/uploads/2021/05/Fundadores-da-Shopper_app_supermercado_online_fabio_rodas_bruna_negrao.jpg?quality=70&strip=info&w=1024",
       "donor": true,
       "id": 1
     },
     {
-      "email": "receiver@mail.com",
+      "email": "receiver1@mail.com",
       "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
-      "name": "TesteReceptor",
+      "name": "Marcos",
       "cpf": "1234456789",
+      "company": "ONG do Bem",
       "telephone": "123456790910",
       "address": {
         "street": "rua x",
-        "city": "São Paulo",
+        "city": "Rio de Janeiro",
         "state": "RJ"
       },
-      "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+      "profileImgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfi3maAxla7XqvB9QMcMR8dzhf688ev7kl8A&usqp=CAU",
       "donor": false,
       "id": 2
+    },
+    {
+      "email": "receiver2@mail.com",
+      "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
+      "name": "Leonardo",
+      "cpf": "1234456789",
+      "company": "ONG da Paz",
+      "telephone": "123456790910",
+      "address": {
+        "street": "rua x",
+        "city": "Belo Horizonte",
+        "state": "MG"
+      },
+      "profileImgUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "donor": false,
+      "id": 3
+    },
+    {
+      "email": "receiver3@mail.com",
+      "password": "$2a$10$FSiQBECicTk5Po9hknfFyuzpfI1tGw0T3Vq.avPZ/StWqXvEUiw3C",
+      "name": "Júlia",
+      "cpf": "1234456789",
+      "company": "ONG do Amor",
+      "telephone": "123456790910",
+      "address": {
+        "street": "rua x",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "profileImgUrl": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "donor": false,
+      "id": 4
     }
   ],
   "donation": [
     {
       "userId": 1,
-      "title": "Farinha de Trigo",
+      "title": "Farinha",
       "category": "Cereais",
       "validation": "01/02/23",
-      "descripition": "Doção sacos de trigo",
+      "descripition": "Doação de Sacas de Trigo",
       "amounts": 10,
       "address": {
-        "street": "rua x",
         "city": "São Paulo",
         "state": "SP"
       },
       "id": 1,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "São Paulo",
-            "state": "RJ"
+            "state": "SP"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver2@mail.com",
+          "name": "Leonardo",
+          "cpf": "1234456789",
+          "company": "ONG da Paz",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Belo Horizonte",
+            "state": "MG"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -65,33 +113,18 @@
     },
     {
       "userId": 1,
-      "title": "Repolhos",
+      "title": "Repolho",
       "category": "Hortaliças",
       "validation": "20/02/23",
       "descripition": "varios Repolhos que sobreram da feira",
-      "amounts": 5,
+      "amounts": "10",
       "address": {
         "street": "rua x",
         "city": "Rio de Janeiro",
         "state": "RJ"
       },
       "id": 2,
-      "request": [
-        {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
-          "cpf": "1234456789",
-          "telephone": "123456790910",
-          "address": {
-            "street": "rua x",
-            "city": "Petrópolis",
-            "state": "RJ"
-          },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
-          "donor": false,
-          "id": 2
-        }
-      ]
+      "request": []
     },
     {
       "userId": 1,
@@ -107,16 +140,17 @@
       "id": 3,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "São Gonçalo",
             "state": "RJ"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -124,10 +158,10 @@
     },
     {
       "userId": 1,
-      "title": "Ovos",
+      "title": "Carne Suína",
       "category": "Carnes & Ovos",
       "validation": "20/02/23",
-      "descripition": "algumas Duzias",
+      "descripition": "Bisteca Suína fatiada",
       "amounts": 6,
       "address": {
         "city": "Fortaleza",
@@ -136,16 +170,32 @@
       "id": 4,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "Aquiraz",
             "state": "CE"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver3@mail.com",
+          "name": "Júlia",
+          "cpf": "1234456789",
+          "company": "ONG da Paz",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Rio de Janeiro",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -153,7 +203,7 @@
     },
     {
       "userId": 1,
-      "title": "Leites",
+      "title": "Leite",
       "category": "Leite e Derivados",
       "validation": "20/01/23",
       "descripition": "Leites que Nào forem usados na padaria",
@@ -165,16 +215,17 @@
       "id": 5,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "Guarulhos",
             "state": "SP"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -182,7 +233,7 @@
     },
     {
       "userId": 1,
-      "title": "Óleos",
+      "title": "Óleo de Soja",
       "category": "Óleos & Gorduras",
       "validation": "20/04/23",
       "descripition": "Genhei e nunca usei",
@@ -194,16 +245,17 @@
       "id": 6,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "Itumbiara",
             "state": "Go"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -211,7 +263,7 @@
     },
     {
       "userId": 1,
-      "title": "Cestas Basicas",
+      "title": "Cesta Básica",
       "category": "Cesta Basica",
       "validation": "20/04/23",
       "descripition": "genhei da frima e Nào vou utilizar",
@@ -223,16 +275,47 @@
       "id": 7,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": "Rorainópolis",
             "state": "RR"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver2@mail.com",
+          "name": "Leonardo",
+          "cpf": "1234456789",
+          "company": "ONG da Paz",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Belo Horizonte",
+            "state": "MG"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver3@mail.com",
+          "name": "Júlia",
+          "cpf": "1234456789",
+          "company": "ONG do Amor",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Rio de Janeiro",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
@@ -240,11 +323,11 @@
     },
     {
       "userId": 1,
-      "title": "Milho Enlatado",
+      "title": "Milho - lata",
       "category": "Não Pereciveis",
       "validation": "20/04/23",
       "descripition": "genhei da frima e Nào vou utilizar",
-      "amounts": 2,
+      "amounts": "10",
       "address": {
         "city": "Sena Madureira",
         "state": "AC"
@@ -252,16 +335,47 @@
       "id": 8,
       "request": [
         {
-          "email": "receiver@mail.com",
-          "name": "TesteReceptor",
+          "email": "receiver1@mail.com",
+          "name": "Patrícia",
           "cpf": "1234456789",
+          "company": "ONG do Amor",
           "telephone": "123456790910",
           "address": {
             "street": "rua x",
             "city": " Arujá",
             "state": "SP"
           },
-          "profileImgUrl": "https://img.freepik.com/icones-gratis/do-utilizador_318-219673.jpg?t=st=1673374267~exp=1673374867~hmac=7e7d58ee071b6baa92282e08ec2f4d0bf2cc9489a1d26e17f3d55ab2721bc0c4",
+          "profileImgUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver2@mail.com",
+          "name": "Leonardo",
+          "cpf": "1234456789",
+          "company": "ONG da Paz",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Belo Horizonte",
+            "state": "MG"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "donor": false,
+          "id": 2
+        },
+        {
+          "email": "receiver3@mail.com",
+          "name": "Júlia",
+          "cpf": "1234456789",
+          "company": "ONG do Bem",
+          "telephone": "123456790910",
+          "address": {
+            "street": "rua x",
+            "city": "Rio de Janeiro",
+            "state": "RJ"
+          },
+          "profileImgUrl": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600",
           "donor": false,
           "id": 2
         }
